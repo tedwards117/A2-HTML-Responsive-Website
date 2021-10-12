@@ -14,6 +14,11 @@ body{
     overflow:hidden;
 }
 
+ul{
+    margin:0;
+    padding:0;
+}
+
 /* Header **/
 header{
     background:#35424a;
@@ -30,13 +35,8 @@ header a{
     font-size:16px;
 }
 
-header ul{
-    margin:0;
-    padding:0;
-}
-
 header li{
-    float left;
+    float: left;
     display:inline;
     padding: 0 20px 0 20px;
 }
@@ -51,4 +51,10 @@ header #branding h1{
 
 header nav{
     float:right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
 }
