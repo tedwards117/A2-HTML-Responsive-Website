@@ -148,6 +148,15 @@ aside#sidebar{
     margin-top:10px;
 }
 
+/* Services */
+ul#services li{
+    list-style: none;
+    padding:20px;
+    border:#cccccc solid 1px;
+    margin-bottom:5px;
+    background:#e6e6e6;
+}
+
 /* Main-col */
 article#main-col{
     float:left;
